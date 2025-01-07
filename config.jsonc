@@ -5,67 +5,68 @@
     "logo": {
         "type":"kitty",
         "padding": {
-            "top": 2,
+            "top": 1,
             "left": 1,
             "right": 2
         },
-        "source": "/Users/mauriceelliott/Pictures/ghostty.png"
+        "width": 18,
+        "height":16,
+        "source": "/Users/mauriceelliott/Pictures/neir_theme/2b_fastfetch.png"
     },
     // Manually add seperator since
     // we need to add box top and bottom
     "display": {
         "separator": ""
     },
-
     // Modules
     "modules": [
         // Top of Box
         {
             "key": "╭──────────╮",
             "type": "custom",
-            "keyColor": "white"
+            "keyColor": "black"
         },
         {
-            "key": "│{#cyan}  user  {#white} │",
+            "key": "│{#cyan}  user  {#black} │",
             "type": "title",
-            "format": " {#38}{user-name}{#white} ",
-            "keyColor": "white"
+            "format": " {#38}{user-name}{#black} ",
+            "keyColor": "black"
         },
         {
-            "key": "{#white}│{#38;2;250;179;135} 󰘳 os     {#white}│ ",
+            "key": "{#black}│{#35;2;250;179;135} 󰘳 os     {#black}│ ",
             "type": "os",
             "keyColor": "38;2;250;179;135",
             "format": "{pretty-name} {codename}"
         },
         {
-            "key": "│{#33} 󰌢 kernel {#white}│ ",
+            "key": "│{#31} 󰌢 kernel {#black}│ ",
             "type": "kernel",
-            "keyColor": "white"
+            "keyColor": "black"
         },
         {
-            "key": "│{#32}  term   {#white}│ ",
+            "key": "│{#32}  term   {#black}│ ",
             "type": "terminal",
             "format": "{pretty-name}",
-            "keyColor": "white"
+            "keyColor": "black"
         },
         {
-            "key": "│{#magenta}  uptime {#white}│ ",
+            "key": "│{#magenta}  uptime {#black}│ ",
             "type": "uptime",
-            "keyColor": "white"
+            "keyColor": "black"
         },
         {
-            "key": "{#white}│{#38;2;203;166;247}  pkgs   {#white}│ ",
+            "key": "{#black}│{#32;2;203;166;247}  pkgs   {#black}│ ",
             "type": "packages",
-            "keyColor": "38;2;203;166;247"
+            "keyColor": "#38;2;203;166;247"
         },
         // Colors seperator
         {
           "key": "├──────────┤",
           "type": "custom",
-          "keyColor": "white"
+          "keyColor": "black"
         },
         {
-          "key": "{#white}│  colors │ ",
+          "key": "{#black}│  colors │ ",
           "symbol": "circle",
           "type": "colors"
         },
@@ -73,7 +74,7 @@
         {
             "key": "╰──────────╯",
             "type": "custom",
-            "keyColor": "white"
+            "keyColor": "black"
         }
     ]
 }
