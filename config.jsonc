@@ -2,6 +2,17 @@
 // https://github.com/arithefirst/dotfiles
 {   
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    // "logo": {
+    //     "type":"kitty",
+    //     "padding": {
+    //         "top": 1,
+    //         "left": 1,
+    //         "right": 2
+    //     },
+    //     "width": 18,
+    //     "height":17,
+    //     "source": "~/.config/fastfetch/img/2b_1.png"
+    // },
     "logo": {
         "type":"kitty",
         "padding": {
@@ -9,9 +20,9 @@
             "left": 1,
             "right": 2
         },
-        "width": 18,
+        "width": 26,
         "height":17,
-        "source": "/Users/mauriceelliott/Pictures/neir_theme/2b_fastfetch.png"
+        "source": "~/.config/fastfetch/img/2b_2.png"
     },
     "display": {
         "separator": ""
@@ -86,7 +97,7 @@
             "format": "{1} / {2} ({3})"
         },
         {
-            "key": "│{#35}   memory {#black}│ ",
+            "key": "│{#35}  memory  {#black}│ ",
             "type": "memory",
             "keyColor": "black"
         },
