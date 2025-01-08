@@ -13,68 +13,86 @@
         "height":17,
         "source": "/Users/mauriceelliott/Pictures/neir_theme/2b_fastfetch.png"
     },
-    // Manually add seperator since
-    // we need to add box top and bottom
     "display": {
-        "separator": ""
+        "separator": "",
+        "key": {
+            "width": 15
+        }
     },
-    // Modules
     "modules": [
-        // Top of Box
         {
-            "key": "╭──────────╮",
-            "type": "custom",
-            "keyColor": "black"
-        },
-        {
-            "key": "│{#cyan}  user  {#black} │",
+            // draw borders first to make colors of left and right border consistant
+            "key": " user",
             "type": "title",
-            "format": " {#38}{user-name}{#black} ",
-            "keyColor": "black"
+            "format": "{user-name}",
+            "keyColor": "31"
         },
         {
-            "key": "{#black}│{#35;2;250;179;135} 󰘳 os     {#black}│ ",
+            "key": "󰇅 hname",
+            "type": "title",
+            "format": "{host-name}",
+            "keyColor": "32"
+
+        },
+        {
+            "key": "󰅐 uptime",
+            "type": "uptime",
+            "keyColor": "33",
+            "format": "{1} days {2} hours {3} mins"
+        },
+        {
+            "key": "{icon} distro",
             "type": "os",
-            "keyColor": "38;2;250;179;135",
+            "keyColor": "34",
             "format": "{pretty-name} {codename}"
         },
         {
-            "key": "│{#31} 󰌢 kernel {#black}│ ",
+            "key": " kernel",
             "type": "kernel",
-            "keyColor": "black"
+            "keyColor": "35",
+            "format": "{sysname}"
         },
         {
-            "key": "│{#32}  term   {#black}│ ",
+            "key": "󰇄 display",
+            "type": "display",
+            "keyColor": "36",
+            "format": "{width}x{height} @ {refresh-rate} Hz"
+        },
+        {
+            "key": " term",
             "type": "terminal",
-            "format": "{pretty-name}",
-            "keyColor": "black"
+            "keyColor": "31",
+            "format": "{pretty-name}"
         },
         {
-            "key": "│{#magenta}  uptime {#black}│ ",
-            "type": "uptime",
-            "keyColor": "black"
+            "key": " shell",
+            "type": "shell",
+            "keyColor": "32",
+            "format": "{pretty-name}"
         },
         {
-            "key": "{#black}│{#32;2;203;166;247}  pkgs   {#black}│ ",
-            "type": "packages",
-            "keyColor": "#38;2;203;166;247"
-        },
-        // Colors seperator
-        {
-          "key": "├──────────┤",
-          "type": "custom",
-          "keyColor": "black"
+            "key": "󰍛 cpu",
+            "type": "cpu",
+            "keyColor": "33",
+            "format": "{name}"
         },
         {
-          "key": "{#black}│  colors │ ",
-          "symbol": "circle",
-          "type": "colors"
+            "key": "󰉉 disk",
+            "type": "disk",
+            "folders": "/",
+            "keyColor": "34",
+            "format": "{1} / {2} ({3})"
         },
-        // Bottom of Box
         {
-            "key": "╰──────────╯",
-            "type": "custom",
-            "keyColor": "black"
+            "key": " memory",
+            "type": "memory",
+            "keyColor": "35"
+        },
+        {
+            "key": " colors",
+            "type": "colors",
+            "symbol": "square",
+            "keyColor": "39"
         }
     ]
 }
