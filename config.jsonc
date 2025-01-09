@@ -97,7 +97,7 @@
             "format": "{1} / {2} ({3})"
         },
         {
-            "key": "│{#35}  memory  {#black}│ ",
+            "key": "│{#35} 󰍛 memory  {#black}│ ",
             "type": "memory",
             "keyColor": "black"
         },
@@ -107,7 +107,7 @@
           "keyColor": "black"
         },
         {
-            "key": "│{#39}  colors  {#black}│ ",
+            "key": "│{#39} 󰏘 colors  {#black}│ ",
             "type": "colors",
             "symbol": "square",
             "keyColor": "black"
