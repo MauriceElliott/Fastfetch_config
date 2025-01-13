@@ -1,18 +1,7 @@
-// Made by April Hall
-// https://github.com/arithefirst/dotfiles
+//Maurice Elliott
+// https://github.com/MauriceElliott
 {   
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-    // "logo": {
-    //     "type":"kitty",
-    //     "padding": {
-    //         "top": 1,
-    //         "left": 1,
-    //         "right": 2
-    //     },
-    //     "width": 18,
-    //     "height":17,
-    //     "source": "~/.config/fastfetch/img/2b_1.png"
-    // },
     "logo": {
         "type":"kitty",
         "padding": {
@@ -20,11 +9,34 @@
             "left": 1,
             "right": 2
         },
-        "width": 28,
+        "width": 17,
         "height":17,
-        "source": "~/.config/fastfetch/img/2b_2.png"
+        "source": "~/.config/fastfetch/img/2b_1.png"
     },
-    "display": {
+    // "logo": {
+    //     "type":"kitty",
+    //     "padding": {
+    //         "top": 1,
+    //         "left": 1,
+    //         "right": 2
+    //     },
+    //     "width": 28,
+    //    "height":17,
+    //     "source": "~/.config/fastfetch/img/2b_2.png"
+    // },
+    // "logo": {
+    //     "type":"kitty",
+    //     "padding": {
+    //         "top": 1,
+    //         "left": 1,
+    //         "right": 2
+    //     },
+    //     "width": 25,
+    //     "height":17,
+    //     "source": "~/.config/fastfetch/img/2b_4.png"
+    // },
+
+   "display": {
         "separator": ""
     },
     "modules": [
@@ -57,7 +69,7 @@
             "key": "│{#34} {icon} distro  {#black}│ ",
             "type": "os",
             "keyColor": "black",
-            "format": "{pretty-name} {codename}"
+            "format": "{name} {codename}"
         },
         {
             "key": "│{#35}  kernel  {#black}│ ",
