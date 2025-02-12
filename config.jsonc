@@ -2,17 +2,17 @@
 // https://github.com/MauriceElliott
 {   
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-    //"logo": {
-    //    "type":"kitty",
-    //    "padding": {
-    //        "top": 1,
-    //        "left": 1,
-    //        "right": 2
-    //    },
-    //    "width": 17,
-    //    "height":17,
-    //    "source": "~/.config/fastfetch/img/2b_1.png"
-    //},
+    "logo": {
+        "type":"kitty",
+        "padding": {
+            "top": 1,
+            "left": 1,
+            "right": 2
+        },
+        "width": 17,
+        "height":17,
+        "source": "~/.config/fastfetch/img/2b_1.png"
+    },
     // "logo": {
     //     "type":"kitty",
     //     "padding": {
@@ -24,17 +24,17 @@
     //    "height":17,
     //     "source": "~/.config/fastfetch/img/2b_2.png"
     // },
-     "logo": {
-         "type":"kitty",
-         "padding": {
-             "top": 1,
-             "left": 1,
-             "right": 2
-         },
-         "width": 25,
-         "height":19,
-         "source": "~/.config/fastfetch/img/2b_4.png"
-     },
+    // "logo": {
+    //     "type":"kitty",
+    //     "padding": {
+    //         "top": 1,
+    //         "left": 1,
+    //         "right": 2
+    //     },
+    //     "width": 25,
+    //     "height":19,
+    //     "source": "~/.config/fastfetch/img/2b_4.png"
+    // },
 
    "display": {
         "separator": ""
